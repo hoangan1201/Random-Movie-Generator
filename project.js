@@ -3,7 +3,7 @@ let url = 'https://api.themoviedb.org/3';
 let discoverMovie = `${url}/discover/movie`;
 let imgPath = `https://image.tmdb.org/t/p/w500`;
 let movie_url = `https://api.themoviedb.org/3/movie/?api_key=&language=en-US`;
-let trailer_path =`http://api.themoviedb.org/3/movie//videos?api_key=03f3fa53ab9f0b658cf37093aba68e8c`;
+let trailer_path =`https://api.themoviedb.org/3/movie//videos?api_key=03f3fa53ab9f0b658cf37093aba68e8c`;
 
 
 let loading_page = document.getElementById("loading_page");
