@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Random Movie</title>
+    <link rel="stylesheet" href="project.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="main">
+        <div id="backgroundMyVideo">
+            
+        </div>
+        <video autoplay muted loop id="myVideo">
+            <source src="background-video.mp4" type="video/mp4">
+            Your browser does not support HTML5 video.
+        </video>
+        <div class="nav-bar">
+            <div class="nav-bar__logo"></div>
+            
+        </div>
+        <div class="div div-select" style="z-index: 99">
+            <button class ="btn">Random a Movie</button>
+        <div class="custom-select">
+            <select id="select">
+                <option value="">All genres</option>
+            </select>
+        </div>   
+        </div>
+    </div>
+    <div id="loading_page">
+        <img src="loading.gif" alt=""></img>
+    </div>
+    <div id="movie_randomed_page">
+        <div class="nav-bar">
+            <button class="nav-bar__btn" id="randomAgainButton">Random </button>
+            <button class="nav-bar__btn" id="random2019movie">Random 2019</button>
+            <button class="nav-bar__btn" id="homepageButton">Homepage</button>
+        </div>
+        <div class="header"></div>
+        <div id="background-image">
+            <div id="custom_bg">
+
+            </div>
+        </div>
+        <div class="wrapper">
+            <div id="poster">
+                <img id="poster_image" src="" alt="">
+            </div>
+            <div id="content">
+                <div id="title">
+                    <h1 id="titleContent">This is Title</h1>
+                    <div id="list-genres"></div>
+                </div>
+                <div id="overview">
+                    <h3>Overview</h3>
+                    <p id="content-overview">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi, magnam, ex veritatis ea nulla odio libero voluptate atque ipsum nisi unde a fugit asperiores provident! Dolorum voluptate deserunt vel facilis.
+                    </p>
+                </div>
+                <div id="popularityDisplay">
+                    <span id="popularitySpan1">Popularity: </span><span id="popularitySpan2"> 9.572</span>
+                </div>
+                <div id="runtimeDisplay">
+                    <span id="runtimeDisplaySpan">Run time: </span><span id="runtimeDisplaySpan2"> 9.572</span>
+                </div>
+                <div id="releaseDateDisplay">
+                    <span id="releaseDateDisplaySpan">Release date: </span> <span id="releaseDateDisplaySpan2">27/9/1010</span>
+                </div>
+                <div id="logo">
+                    <a id="logoGoogle" href="" target="_blank" title="Search for film on Google"> <img id="logogg"  src="logogoogle.png" > </a> 
+                    <a id="logoNetflix" href="" target="_blank" title="Search for film on Netflix"> <img id="logone"  src="logonetflix.jpg" > </a> 
+                    <a id="logoPhimmoi" href="" target="_blank" title="Search for film on Phimmoi"> <img id="logopm"  src="logo_phim.png" > </a> 
+                    </div>
+                <div id="ytbTrailer">
+
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+
+        </div>
+    </div>
+    <script src="project.js"></script>  
+</html>
+
+    
+                   
+
+
