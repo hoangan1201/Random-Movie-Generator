@@ -1,3 +1,6 @@
+console.log("chay thu");
+
+
 let apiKey = '03f3fa53ab9f0b658cf37093aba68e8c';
 let url = 'https://api.themoviedb.org/3';
 let discoverMovie = `${url}/discover/movie`;
@@ -231,3 +234,5 @@ function homepageButton() {
     location.reload();
 }
     hompage_button.addEventListener("click", homepageButton);
+
+
