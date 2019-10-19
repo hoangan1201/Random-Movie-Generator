@@ -89,7 +89,7 @@ async function APIkey(genre, year) {
     let movieId = dataDiscoverMovie["results"][filmNumber]["id"];
     movie_url = `https://api.themoviedb.org/3/movie/${movieId}?api_key=${apiKey}&language=en-US`;
 
-    let trailer_link = `http://api.themoviedb.org/3/movie/${movieId}/videos?api_key=03f3fa53ab9f0b658cf37093aba68e8c`;
+    let trailer_link = `https://api.themoviedb.org/3/movie/${movieId}/videos?api_key=03f3fa53ab9f0b658cf37093aba68e8c`;
     let trailerRequest = await fetch(trailer_link);
     let trailer_detail = await trailerRequest.json();
     if (trailer_detail["results"].length > 0) {
